@@ -179,10 +179,18 @@ body {
     color: var(--accentColor);
     padding: 20px;
     background-color: var(--bgColor);
-    text-align: center;
+    text-align: left;
     font-size: 1rem;
 }
 
+.popup-quote .ul {
+    margin: 0;
+    padding: 0;
+}
+
+.popup-quote .li {
+    display: inline;
+}
 .popup-photo {
     display: flex;
     width: 100%;
